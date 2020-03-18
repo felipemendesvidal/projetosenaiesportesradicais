@@ -46,7 +46,6 @@ main{
 }
 .image{
     width: 100%;
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,17 +59,25 @@ main{
 }
 .image img{
     width: 40%;
+    height: 180px;
+    border-radius: 50%;
    
 }
-
+.btn{
+    display: flex;
+    flex-direction: column;
+    padding: 31px;
+}
 .friends{
     background-color:rgb(187, 187, 187);
     color: black;
-    padding: 15px;
-    margin: auto;
+    padding: 20px;
+    margin: 15px auto;
     width: 250px;
     text-align: center;
-    font-size: 25px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
 }
 .friends a{
     padding: 35px;
@@ -154,12 +161,14 @@ input:focus, select:focus{
 
 @media(min-width: 768px){
     .foto{
-    background-image: url("../images/Dia-do-Idoso-1.jpg ");
+    background-image: url("../images/casal.jpg");
     background-attachment: fixed;
+  
     background-repeat: no-repeat;
     }
     .image img{
         width: 35%;
+        height: 300px;
        
     }
     .form_cadastro{
@@ -169,12 +178,18 @@ input:focus, select:focus{
 @media(min-width: 1200px){
     .image{
         display: block;
-        width: 80%;
+        width: 61%;
         padding-top: 3em;
+        margin-left: 80px;
         
+    }
+    .image img{
+        height: 252px;
     }
     .foto{
       display: flex; 
+      background-position: initial;
+      background-image: url("../images/quais-sao-os-exames-para-um-check-up-idosos.jpg");
     }
     .friends{
         align-items: center;
