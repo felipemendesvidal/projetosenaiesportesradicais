@@ -39,7 +39,7 @@ img{width: 100%;}
     .topsection{width: 100%; height: auto; background-color: darkgrey; display: flex; text-transform: uppercase;letter-spacing: 0.1em;}
     .cont-oculto{display: block;}
     
-
+}
 
 @media(min-width: 768px){
     .image img{
